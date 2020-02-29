@@ -1,24 +1,28 @@
 .bg-color{
     background-color:#FDE7E7;
+    border-radius: 8px;
+}
+.container{
+    margin-bottom: 80px;
 }
 .carousel-item{
     padding: 20px 40px;
 }
-.col-md-7{
-    }
-.col-md-7 h1{
+
+.col-md-7 h1, .card h1{
     text-transform: capitalize;
-    font-size: 28px;
+    font-size: 26px;
 }
 .col-md-7 p{
     font-size: 14px;
 
 }
-.col-md-7 a{
+.col-md-7 a, .card a, .card-footer a{
     text-decoration: none;
     display: inline-block;
 }
-.col-md-7 a button{
+.col-md-7 a button, .card a button, .card-footer a button{
+    text-transform: capitalize;
     border: none;
     background: #F30071;
     padding: 8px;
@@ -32,32 +36,62 @@
 .price{
     color: #F30071;
 }
-.{
-    
+
+/* categories section */
+.categories h1{
+    font-size: 28px;
+    text-transform: capitalize;
+    color: #fff;
 }
-.{
-    
+.categories img{
+    width: 70%;
+    height: auto;
 }
-.{
-    
+
+.cata-1, .cata-2, .cata-3{
+    padding: 10px 20px;
+    border-radius: 8px;
 }
-.{
-    
+.cata-1{
+    background: #F4A92D;
 }
-.{
-    
+.cata-2{
+    background: #F0197D;
 }
-.{
-    
+.cata-3{
+    background: #2F39F8;
 }
-.{
-    
+
+/* shoes */
+#shoes h3, #bagpack h3{
+    text-transform: capitalize;
 }
-.{
-    
+.card h5{
+    text-transform: capitalize;
 }
-.{
-    
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+/* bagpack sectioni*/
+.card-footer{
+    background-color: #fff;
+    border-top: none;
+}
+
+
+/* subscrips section*/
+
+.card-body input{
+    border: none;
+    background-color: #fff;
+    padding: 5px 50px 5px 10px;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+.bg-color-sub{
+    background: #FDE7E7;
 }
 .{
     
