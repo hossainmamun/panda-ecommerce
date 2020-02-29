@@ -11,10 +11,10 @@
 
 .col-md-7 h1, .card h1{
     text-transform: capitalize;
-    font-size: 26px;
+    font-size: 30px;
 }
 .col-md-7 p{
-    font-size: 14px;
+    font-size: 18px;
 
 }
 .col-md-7 a, .card a, .card-footer a{
